@@ -1,0 +1,1 @@
+(핵심) 기능별로 묶음. (auth, payment, landing) 관련 코드가 여기 다 모임.
