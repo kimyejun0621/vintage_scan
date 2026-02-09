@@ -378,4 +378,5 @@ if (require.main === module) {
   main().catch(console.error);
 }
 
-export { scrapeEbay, scrapeGrailed, ScrapedItem };
+export { scrapeEbay, scrapeGrailed };
+export type { ScrapedItem };

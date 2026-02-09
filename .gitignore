@@ -45,3 +45,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Other projects (not part of this Next.js app)
+/Vintage Authentication Home Screen

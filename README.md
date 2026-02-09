@@ -28,6 +28,9 @@ cp .env.example .env.local
 ```env
 NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key-here
+SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
+GEMINI_API_KEY=your-gemini-api-key
+NEXT_PUBLIC_SITE_URL=http://localhost:3000
 ```
 
 ### 3. 개발 서버 실행
@@ -97,6 +100,13 @@ npm run lint     # ESLint 실행
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone)
 
-Vercel에 배포할 때 환경 변수도 같이 설정해야 합니다:
-- `NEXT_PUBLIC_SUPABASE_URL`
-- `NEXT_PUBLIC_SUPABASE_ANON_KEY`
+Vercel에 배포할 때 다음 환경 변수를 설정해야 합니다:
+
+### 필수 환경 변수
+- `NEXT_PUBLIC_SUPABASE_URL` - Supabase 프로젝트 URL
+- `NEXT_PUBLIC_SUPABASE_ANON_KEY` - Supabase anon public key
+- `SUPABASE_SERVICE_ROLE_KEY` - Supabase service role key (서버 전용)
+- `GEMINI_API_KEY` - Google Gemini AI API 키
+- `NEXT_PUBLIC_SITE_URL` - 배포된 사이트 URL (예: https://your-app.vercel.app)
+
+자세한 배포 가이드는 [DEPLOYMENT.md](./DEPLOYMENT.md)를 참고하세요.
