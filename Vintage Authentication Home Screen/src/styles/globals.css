@@ -2,7 +2,7 @@
 
 /* Supreme Card - Box Logo Outline Texture */
 .supreme-bg {
-  background-image:
+  background-image: 
     repeating-linear-gradient(
       0deg,
       transparent,
@@ -32,7 +32,7 @@
 
 /* Levi's Card - Denim Texture */
 .levis-bg {
-  background-image:
+  background-image: 
     repeating-linear-gradient(
       45deg,
       transparent,
@@ -54,7 +54,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background-image:
+  background-image: 
     radial-gradient(circle at 20% 50%, rgba(30, 58, 138, 0.1) 0%, transparent 50%),
     radial-gradient(circle at 80% 80%, rgba(30, 58, 138, 0.1) 0%, transparent 50%);
   filter: url(#noise);
@@ -62,7 +62,7 @@
 
 /* Stussy Card - Concrete Texture */
 .stussy-bg {
-  background-image:
+  background-image: 
     radial-gradient(circle at 25% 25%, rgba(0, 0, 0, 0.05) 0%, transparent 50%),
     radial-gradient(circle at 75% 75%, rgba(0, 0, 0, 0.05) 0%, transparent 50%),
     radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.03) 0%, transparent 50%);
@@ -297,7 +297,7 @@ svg {
   content: '';
   position: absolute;
   inset: 0;
-  background-image:
+  background-image: 
     repeating-linear-gradient(
       45deg,
       transparent,
@@ -354,13 +354,13 @@ svg {
 
 @keyframes premium-glow {
   0%, 100% {
-    box-shadow:
+    box-shadow: 
       0 0 20px rgba(255, 255, 255, 0.2),
       0 0 40px rgba(255, 255, 255, 0.1),
       inset 0 0 60px rgba(255, 255, 255, 0.05);
   }
   50% {
-    box-shadow:
+    box-shadow: 
       0 0 30px rgba(255, 255, 255, 0.3),
       0 0 60px rgba(255, 255, 255, 0.2),
       inset 0 0 80px rgba(255, 255, 255, 0.08);
@@ -370,7 +370,7 @@ svg {
 /* Payment Modal Styles */
 .payment-modal {
   animation: modalSlideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-  box-shadow:
+  box-shadow: 
     0 0 60px rgba(255, 255, 255, 0.1),
     0 20px 80px rgba(0, 0, 0, 0.8),
     inset 0 0 100px rgba(255, 255, 255, 0.03);

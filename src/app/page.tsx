@@ -1,5 +1,5 @@
-import LandingPage from "@/features/landing/components/LandingPage"
+import VintageLandingPage from "@/features/landing/components/vintage/VintageLandingPage"
 
 export default function Home() {
-  return <LandingPage />
+  return <VintageLandingPage />
 }
