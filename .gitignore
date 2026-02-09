@@ -48,3 +48,11 @@ next-env.d.ts
 
 # Other projects (not part of this Next.js app)
 /Vintage Authentication Home Screen
+
+# Test scripts
+test-*.mjs
+test-*.js
+check-env.mjs
+debug-*.mjs
+verify-*.mjs
+EBAY_API_ANALYSIS.md

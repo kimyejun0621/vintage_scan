@@ -2,7 +2,7 @@ import { PricingConfig } from '@/lib/services/pricing/types';
 
 export const PRICING_CONFIG: PricingConfig = {
   ebay: {
-    enabled: true,
+    enabled: false, // Rate limit 초과 - App ID는 정확함! 24시간 후 다시 활성화하세요
     maxResults: 50,
     timeout: 10000, // 10 seconds
     weight: 0.4

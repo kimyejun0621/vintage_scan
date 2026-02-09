@@ -96,6 +96,22 @@ npm run lint     # ESLint 실행
 ### 환경 변수 가져오기
 - Settings → API에서 Project URL과 anon key 복사
 
+## eBay API 설정 (선택사항)
+
+실시간 시장 가격 데이터를 원한다면:
+
+1. **eBay API 키 발급**
+   - https://developer.ebay.com/my/keys
+   - Production Key의 App ID 복사
+
+2. **환경 변수 추가**
+   ```bash
+   echo "EBAY_APP_ID=your-app-id" >> .env.local
+   ```
+
+3. **자세한 가이드**
+   - [EBAY_API_GUIDE.md](./EBAY_API_GUIDE.md) 참고
+
 ## Deploy on Vercel
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone)
